@@ -41,4 +41,4 @@ jobs:
           echo "Esperando 3 horas antes de reiniciar..."
           sleep $((3 * 60 * 60))  # Espera 3 horas (3*60*60 segundos)
           echo "Reiniciando el workflow..."
-          gh workflow run "<nombre-del-workflow>.yml"
+          gh workflow run collect_coins.yml
